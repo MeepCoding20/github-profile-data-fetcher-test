@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,9 +11,12 @@
     <div class="container">
         <div class="top-bar">
             <input placeholder="Input Profile Name" type="text" class="inputbox" id="inputbox"></input>
-            <button id="fetchbutton" onclick="fetchData()">Fetch Data</button>
+            <button class="fetchbutton" id="fetchbutton" onclick="fetchData()">Fetch Data</button>
         </div>
-        <div class="resultbox" id="resultbox"></div>
+        <div class="result-container">
+            <div class="resultheader" id="resultheader"></div>
+            <div class="resultbox" id="resultbox"></div>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
